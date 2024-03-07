@@ -62,7 +62,7 @@ func (j *JSONData) Encoding() error {
 
 // Encoding перекодирует файл из YAML в JSON
 func (y *YAMLData) Encoding() error {
-	// Ниже реализуйте метод
+	// Ниже реализуйте мето
 	yamlFile, err := os.ReadFile(y.FileInput)
 	if err != nil {
 		return err
